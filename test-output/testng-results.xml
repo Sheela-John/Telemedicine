@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-28T15:43:07 IST" name="Default suite" finished-at="2022-12-28T15:44:12 IST" duration-ms="65099">
+    <groups>
+    </groups>
+    <test started-at="2022-12-28T15:43:07 IST" name="Default test" finished-at="2022-12-28T15:44:12 IST" duration-ms="65099">
+      <class name="testCase.Login_TC">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testCase.Login_TC@942a29c]" started-at="2022-12-28T15:43:06 IST" name="startTest" finished-at="2022-12-28T15:43:07 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:testCase.Login_TC@942a29c]" started-at="2022-12-28T15:43:07 IST" name="initialization" finished-at="2022-12-28T15:43:29 IST" duration-ms="21937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.Login_TC@942a29c]" started-at="2022-12-28T15:43:29 IST" name="setUp" finished-at="2022-12-28T15:43:29 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ConsultationsTest()[pri:0, instance:testCase.Login_TC@942a29c]" started-at="2022-12-28T15:43:29 IST" name="ConsultationsTest" finished-at="2022-12-28T15:44:12 IST" duration-ms="42656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsultationsTest -->
+        <test-method is-config="true" signature="driver_method_close()[pri:0, instance:testCase.Login_TC@942a29c]" started-at="2022-12-28T15:44:12 IST" name="driver_method_close" finished-at="2022-12-28T15:44:12 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver_method_close -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.Login_TC@942a29c]" started-at="2022-12-28T15:44:12 IST" name="tearDown" finished-at="2022-12-28T15:44:12 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.Login_TC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="tests.Telemedicine"
+    errors="2" failures="0" hostname="" id="" package="Telemedicine" skipped="0"
+    tests="1" time="68.88" timestamp="">
+  
+    <testcase name="Test Case-3: Login as Doctor" classname="tests.Telemedicine" time="68.88" assertions="0">
+    <error message="An error occurred while running .getText() command on &lt;/html/body/app-dashboard/div/main/div[2]/app-users/div/div/div[2]/div&gt;: Timed out while waiting for element &#34;/html/body/app-dashboard/div/main/div[2]/app-users/div/div/div[2]/div&#34; with &#34;xpath&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Test Case-3: Login as Doctor (E:\Sheela\Telemedicine\tests\Telemedicine.js:21:27)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    E:\Sheela\Telemedicine\tests\Telemedicine.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––
+     18 |         browser.url(&#39;http://182.76.66.74/telemedicineRazorpay/doctor/dashboard&#39;);
+     19 |        
+     20 |         browser.click(&#39;/html/body/app-dashboard/div/app-sidebar/app-sidebar-nav/app-sidebar-nav-items/app-sidebar-nav-link[3]/a&#39;); 
+     21 |         userValue=browser.getText(&#39;/html/body/app-dashboard/div/main/div[2]/app-users/div/div/div[2]/div&#39;);
+     22 |         console.log(userValue);
+    ––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    E:\Sheela\Telemedicine\tests\Telemedicine.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––
+     19 |        
+     20 |         browser.click(&#39;/html/body/app-dashboard/div/app-sidebar/app-sidebar-nav/app-sidebar-nav-items/app-sidebar-nav-link[3]/a&#39;);
+     21 |         userValue=browser.getText(&#39;/html/body/app-dashboard/div/main/div[2]/app-users/div/div/div[2]/div&#39;); 
+     22 |         console.log(userValue);
+     23 |         
+    ––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
